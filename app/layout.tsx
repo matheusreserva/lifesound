@@ -4,6 +4,7 @@ import "../assets/css/globals.css";
 import { ReactNode } from "react";
 import { Roboto_Flex as Roboto } from "next/font/google";
 import Header from "../layouts/header";
+import Footer from "../layouts/footer";
 import SearchMusic from '../components/searchMusic';
 import Banners from '../components/banners';
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Header />
             <Banners />
             <SearchMusic />
+            <Footer />
           </body>
         </html>    
     </html>

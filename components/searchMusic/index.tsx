@@ -77,7 +77,7 @@ const SearchMusicComponent = () => {
 
   return (
     <div className="relative flex justify-center items-center">
-  <div className="-mt-6 max-w-xs rounded-3xl bg-white p-8 text-center shadow-md">
+  <div className="-mt-10 max-w-xs rounded-3xl bg-white p-8 text-center shadow-md">
         <form
           className="flex flex-col justify-center gap-4 text-center"
           onSubmit={handleSearch}
